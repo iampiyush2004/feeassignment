@@ -13,6 +13,7 @@ const App = () => {
     <div className="App">
       <Navbar />
       {/* <CardSearch data={data} /> */}
+      
       <Routes>
         <Route exact path='/' element={<MoviesList />} />
         <Route exact path='movie/:id' element={<Movie/>} />
